@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/drools.iml" filepath="$PROJECT_DIR$/drools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-ruleflow.iml" filepath="$PROJECT_DIR$/spring-boot-start-ruleflow.iml" />
     </modules>
   </component>
 </project>
