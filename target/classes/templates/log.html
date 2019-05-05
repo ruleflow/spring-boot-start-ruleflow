@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta content="text/html;charset=utf-8"></meta>
+    <title>规则执行日志</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../base.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.css"></link>
+    <script src="../bootstrap-3.3.7/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <table class="table">
+        <caption></caption>
+        <thead>
+        <tr>
+            <th>规则</th>
+            <th>开始时间</th>
+            <th>执行时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        <#list logs as log>
+        <tr>
+            <td>${log.modelRulestr}</td>
+            <td>${log.createTime}</td>
+            <td>${log.actionTime}</td>
+
+        </tr>
+        </#list>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
