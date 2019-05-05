@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.rongzer.calculate.autoconfig.RuleAutoConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yiren.ruleengine.autoconfig.RuleengineAutoConfig
